@@ -44,4 +44,5 @@ options.content_filters = [
     ),
 ]
 
-pdf_redactor.redactor(options)
+if __name__ == "__main__":
+    pdf_redactor.redactor(options)
